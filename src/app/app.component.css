@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar{
+  background-color: rgb(70, 70, 70);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+.section-center{
+  margin: 1.5rem;
+  /* height: calc(100vh - 110px); */
+}
+
+
+.footer {
+  margin-top: auto;
+  background-color: rgb(70, 70, 70);
+  padding-top: 18px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+}
